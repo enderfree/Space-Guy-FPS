@@ -548,6 +548,7 @@ GameObject:
   - component: {fileID: 1437306454}
   - component: {fileID: 1437306453}
   - component: {fileID: 1437306458}
+  - component: {fileID: 1437306459}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -685,6 +686,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64272f8b8edb5c949bf2ac434c5c2bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topSpeed: 20
+  acceleration: 50
+--- !u!114 &1437306459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437306452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
