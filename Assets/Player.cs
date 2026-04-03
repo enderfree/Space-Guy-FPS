@@ -49,6 +49,8 @@ public class Player : MonoBehaviour
         inputAction.Player.Move.performed += OnMovePerformed;
         inputAction.Player.Move.canceled += OnMoveCanceled;
 
+        inputAction.Player.Look.Enable();
+
         inputAction.Player.Jump.Enable();
         inputAction.Player.Jump.performed += OnJumpPerformed;
         inputAction.Player.Jump.canceled += OnJumpCanceled;
@@ -60,12 +62,55 @@ public class Player : MonoBehaviour
         inputAction.Player.Jump.performed -= OnJumpPerformed;
         inputAction.Player.Jump.Disable();
 
+        inputAction.Player.Look.Disable();
+
         inputAction.Player.Move.canceled -= OnMoveCanceled;
         inputAction.Player.Move.performed -= OnMovePerformed;
         inputAction.Player.Move.Disable();
     }
 
     void FixedUpdate()
+    {
+        Move();
+        Look();
+    }
+
+    // Events
+    private void OnMovePerformed(InputAction.CallbackContext context)
+    {
+        isMoving = true;
+    }
+
+    private void OnMoveCanceled(InputAction.CallbackContext context)
+    {
+        isMoving = false;
+    }
+
+    private void OnJumpPerformed(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            jumpPressed = true;
+            jumpHeld = true;
+        }
+    }
+
+    private void OnJumpCanceled(InputAction.CallbackContext context)
+    {
+        if (context.canceled)
+        {
+            jumpReleased = true;
+            jumpHeld = false;
+        }
+    }
+
+    // Misc
+    private bool IsGrounded()
+    {
+        return Physics.OverlapSphere(groundCheck.position, groundDistance, ground).Length > 0;
+    }
+
+    private void Move()
     {
         // y
         if (jumpPressed)
@@ -78,7 +123,7 @@ public class Player : MonoBehaviour
             jumpBufferTimer -= Time.deltaTime;
         }
 
-        if (isGrounded())
+        if (IsGrounded())
         {
             coyoteTimer = coyoteTime;
             isJumping = false;
@@ -134,38 +179,17 @@ public class Player : MonoBehaviour
                 ));
     }
 
-    // Events
-    private void OnMovePerformed(InputAction.CallbackContext context)
+    private void Look()
     {
-        isMoving = true;
-    }
+        Vector2 look = inputAction.Player.Look.ReadValue<Vector2>();
 
-    private void OnMoveCanceled(InputAction.CallbackContext context)
-    {
-        isMoving = false;
-    }
-
-    private void OnJumpPerformed(InputAction.CallbackContext context)
-    {
-        if (context.performed)
+        if (inputAction.Player.Look.activeControl != null && inputAction.Player.Look.activeControl.device is Gamepad)
         {
-            jumpPressed = true;
-            jumpHeld = true;
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(look.y, look.x, 0));
         }
-    }
-
-    private void OnJumpCanceled(InputAction.CallbackContext context)
-    {
-        if (context.canceled)
+        else
         {
-            jumpReleased = true;
-            jumpHeld = false;
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(look.x, look.y, 0));
         }
-    }
-
-    // Misc
-    private bool isGrounded()
-    {
-        return Physics.OverlapSphere(groundCheck.position, groundDistance, ground).Length > 0;
     }
 }
