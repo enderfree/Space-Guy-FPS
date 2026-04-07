@@ -25,7 +25,7 @@ public class Turret : MonoBehaviour
     void Awake()
     {
         indicatorRenderer = indicator.GetComponent<Renderer>();
-        StartShooting(); // for test only
+        //StartShooting(); // for test only
     }
 
     // Update is called once per frame
