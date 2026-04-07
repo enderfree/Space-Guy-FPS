@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     [Header("Move Speed")]
     [SerializeField] private float topSpeed;
@@ -23,6 +23,12 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance;
 
+    [Header("Misc")]
+    [SerializeField] public Transform lastCheckpoint; // need to be accessed by the checkpoint script
+    [SerializeField] private float maxHealth;
+
+    private float health;
+
     private float coyoteTimer;
     private float jumpBufferTimer;
 
@@ -41,6 +47,7 @@ public class Player : MonoBehaviour
     {
         inputAction = new InputSystem_Actions();
         rb = GetComponent<Rigidbody>(); // yes, I want it to crash if it's not found
+        health = maxHealth;
     }
 
     private void OnEnable()
@@ -190,6 +197,21 @@ public class Player : MonoBehaviour
         else
         {
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(look.x, look.y, 0));
+        }
+    }
+
+    public void Kill()
+    {
+        transform.position = lastCheckpoint.position;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+
+        if (health <= 0f)
+        {
+            Kill();
         }
     }
 }
