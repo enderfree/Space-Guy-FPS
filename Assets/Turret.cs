@@ -40,7 +40,6 @@ public class Turret : MonoBehaviour
         {
             GameObject instance = Instantiate(bullet, bulletExhaust.transform.position, bullet.transform.rotation);
             instance.GetComponent<Bullet>().FireBullet();
-            // instance.GetComponent<Bullet>().SetDestination = CalculateBulletInstanceDestination();
             timeBetweenShotsCounter = timeBetweenShots;
         }
     }
@@ -55,34 +54,5 @@ public class Turret : MonoBehaviour
     {
         shooting = false;
         indicatorRenderer.material = okMaterial;
-    }
-
-    private Vector3 CalculateBulletInstanceDestination()
-    {
-        Vector3 bulletXExhaustDiff = bullet.transform.position - bulletExhaust.transform.position;
-        Vector3 absoluteBulletXExhaustDiff = new Vector3(Mathf.Abs(bulletXExhaustDiff.x), Mathf.Abs(bulletXExhaustDiff.y), Mathf.Abs(bulletXExhaustDiff.z));
-
-        char desiredAxis = 'x';
-        float biggestDiff = absoluteBulletXExhaustDiff.x;
-        if (biggestDiff < absoluteBulletXExhaustDiff.y)
-        {
-            biggestDiff = absoluteBulletXExhaustDiff.y;
-            desiredAxis = 'y';
-        }
-        if (biggestDiff < absoluteBulletXExhaustDiff.z)
-        {
-            desiredAxis = 'z';
-        }
-
-        Vector3 destination = bulletExhaust.transform.position;
-        switch (desiredAxis)
-        {
-            case 'x': destination.x *= range; break;
-            case 'y': destination.y *= range; break;
-            case 'z': destination.z *= range; break;
-            default: throw new ArgumentException("Turret/CalculateBulletInstanceDestination: the desired axis switch case reached its default statement");
-        }
-
-        return destination;
     }
 }
