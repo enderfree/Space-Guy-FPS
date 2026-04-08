@@ -27,6 +27,10 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     [SerializeField] public Transform lastCheckpoint; // need to be accessed by the checkpoint script
     [SerializeField] private float maxHealth;
 
+    [Header("Step Settings")]
+    [SerializeField] private float stepHeight;
+    [SerializeField] private float stepSmooth;
+    [SerializeField] private float stepCheckDistance;
     private float health;
 
     private float coyoteTimer;
@@ -94,6 +98,7 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     {
         Move();
         Look();
+        StepClimb();
     }
 
     // Events
@@ -200,6 +205,25 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
                 moveDir.z * topSpeed,
                 acceleration * Time.fixedDeltaTime
             ));
+    }
+
+    private void StepClimb()
+    {
+        Vector3 originLow = transform.position + Vector3.up * 0.05f;
+        Vector3 originHigh = transform.position + Vector3.up * stepHeight;
+
+        Vector3 forward = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
+
+       
+        if (Physics.Raycast(originLow, forward, out RaycastHit hitLow, stepCheckDistance))
+        {
+            
+            if (!Physics.Raycast(originHigh, forward, stepCheckDistance))
+            {
+               
+                rb.position += Vector3.up * stepSmooth;
+            }
+        }
     }
 
     private void Look()
