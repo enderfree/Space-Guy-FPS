@@ -39,10 +39,24 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     private bool isMoving = false; // for animation
     private bool isJumping = false;
 
+    private float xRotation = 0f;
+
     private InputSystem_Actions inputAction;
     private Rigidbody rb;
 
     // Unity
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+    }
     private void Awake()
     {
         inputAction = new InputSystem_Actions();
@@ -172,18 +186,20 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         // x, z
         Vector2 move = inputAction.Player.Move.ReadValue<Vector2>();
 
+        Vector3 moveDir = transform.right * move.x + transform.forward * move.y;
+
         rb.linearVelocity = new Vector3(
-            Mathf.MoveTowards( // x
+            Mathf.MoveTowards(
                 rb.linearVelocity.x,
-                topSpeed * move.x,
+                moveDir.x * topSpeed,
                 acceleration * Time.fixedDeltaTime
-                ),
-            yVelocity, // y
-            Mathf.MoveTowards( // z
+            ),
+            yVelocity,
+            Mathf.MoveTowards(
                 rb.linearVelocity.z,
-                topSpeed * move.y,
+                moveDir.z * topSpeed,
                 acceleration * Time.fixedDeltaTime
-                ));
+            ));
     }
 
     private void Look()
@@ -196,7 +212,13 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         }
         else
         {
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(look.x, look.y, 0));
+            float mouseX = look.x;
+            float mouseY = look.y;
+
+            xRotation -= mouseY; // invert vertical (natural feel)
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+            transform.rotation = Quaternion.Euler(xRotation, transform.eulerAngles.y + mouseX, 0f);
         }
     }
 
