@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour, IDamageable
+public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 {
     [Header("Move Speed")]
     [SerializeField] private float topSpeed;
