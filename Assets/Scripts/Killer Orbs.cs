@@ -7,7 +7,7 @@ public class KillerOrbs : MonoBehaviour
 
 
     [Header("Detection")]
-    [SerializeField] private float detectionRange = 8f;
+    [SerializeField] private float detectionRange = 20f;
     [SerializeField] private float attackRange = 2f;
 
     [Header("Movement")]

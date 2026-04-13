@@ -44,6 +44,7 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     private bool isJumping = false;
 
     private float xRotation = 0f;
+    private float yRotation = 0f;
 
     private InputSystem_Actions inputAction;
     private Rigidbody rb;
@@ -226,25 +227,28 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         }
     }
 
+   
+    
+    
+
     private void Look()
     {
         Vector2 look = inputAction.Player.Look.ReadValue<Vector2>();
 
-        if (inputAction.Player.Look.activeControl != null && inputAction.Player.Look.activeControl.device is Gamepad)
-        {
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(look.y, look.x, 0));
-        }
-        else
-        {
-            float mouseX = look.x;
-            float mouseY = look.y;
+        float mouseX = look.x;
+        float mouseY = look.y;
 
-            xRotation -= mouseY; // invert vertical (natural feel)
-            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-            transform.rotation = Quaternion.Euler(xRotation, transform.eulerAngles.y + mouseX, 0f);
-        }
+      
+        transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y + mouseX, 0f);
+
+        
+        Camera.main.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
+
 
     public void Kill()
     {
