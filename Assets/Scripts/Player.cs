@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,6 +32,14 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     [SerializeField] private float stepHeight;
     [SerializeField] private float stepSmooth;
     [SerializeField] private float stepCheckDistance;
+
+    [SerializeField] private GameObject bulletExhaust;
+    [SerializeField] private GameObject bullet;
+    [SerializeField] private float timeBetweenShots;
+    [SerializeField] private float range;
+    [SerializeField] private Camera playerCamera;
+
+    private float timeBetweenShotsCounter = 0;
     private float health;
 
     private float coyoteTimer;
@@ -71,6 +80,8 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 
     private void OnEnable()
     {
+        inputAction.Player.Attack.Enable();
+        inputAction.Player.Attack.performed += OnShoot;
         inputAction.Player.Move.Enable();
         inputAction.Player.Move.performed += OnMovePerformed;
         inputAction.Player.Move.canceled += OnMoveCanceled;
@@ -84,6 +95,8 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 
     private void OnDisable()
     {
+        inputAction.Player.Attack.performed -= OnShoot;
+        inputAction.Player.Attack.Disable();
         inputAction.Player.Jump.canceled -= OnJumpCanceled;
         inputAction.Player.Jump.performed -= OnJumpPerformed;
         inputAction.Player.Jump.Disable();
@@ -100,9 +113,60 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         Move();
         Look();
         StepClimb();
+        if (timeBetweenShotsCounter > 0)
+        {
+            timeBetweenShotsCounter -= Time.fixedDeltaTime;
+        }
+      
     }
 
     // Events
+    private void OnShoot(InputAction.CallbackContext context)
+    {
+      
+    {
+        Debug.Log("Shoot triggered");
+
+        if (Camera.main == null)
+            Debug.LogError("Camera.main is NULL");
+
+        if (bulletExhaust == null)
+            Debug.LogError("bulletExhaust is NULL");
+
+        if (bullet == null)
+            Debug.LogError("bullet prefab is NULL");
+    }
+    
+      {
+        if (timeBetweenShotsCounter > 0) return;
+
+            Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f)); ;//this is my line from here to 
+        RaycastHit hit;
+
+        Vector3 targetPoint;
+
+        if (Physics.Raycast(ray, out hit, range))
+        {
+            targetPoint = hit.point;
+        }
+        else
+        {
+            targetPoint = ray.GetPoint(range);
+        }
+
+      
+        Vector3 direction = (targetPoint - bulletExhaust.transform.position).normalized;
+
+        
+        Quaternion rotation = Quaternion.LookRotation(direction);//to here
+
+        GameObject instance = Instantiate(bullet, bulletExhaust.transform.position, rotation);
+        instance.GetComponent<Bullet>().FireBullet();
+
+        timeBetweenShotsCounter = timeBetweenShots;
+      }
+
+    }
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
         isMoving = true;
@@ -244,9 +308,13 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 
       
         transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y + mouseX, 0f);
-
+        
         
         Camera.main.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+      //  bullet.transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y + mouseX, 0f);
+      // bullet.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
     }
 
 
