@@ -242,7 +242,6 @@ GameObject:
   - component: {fileID: 10874089}
   - component: {fileID: 10874092}
   - component: {fileID: 10874091}
-  - component: {fileID: 10874090}
   m_Layer: 0
   m_Name: Turret (5)
   m_TagString: Untagged
@@ -266,27 +265,6 @@ Transform:
   - {fileID: 37866400}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
---- !u!65 &10874090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10874088}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &10874091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1591,7 +1569,6 @@ GameObject:
   - component: {fileID: 102746135}
   - component: {fileID: 102746138}
   - component: {fileID: 102746137}
-  - component: {fileID: 102746136}
   m_Layer: 0
   m_Name: Chaser (19)
   m_TagString: Untagged
@@ -1614,27 +1591,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &102746136
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102746134}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &102746137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2263,7 +2219,6 @@ GameObject:
   - component: {fileID: 136374585}
   - component: {fileID: 136374588}
   - component: {fileID: 136374587}
-  - component: {fileID: 136374586}
   m_Layer: 0
   m_Name: Chaser (49)
   m_TagString: Untagged
@@ -2286,27 +2241,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &136374586
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136374584}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &136374587
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2663,7 +2597,6 @@ GameObject:
   - component: {fileID: 140038424}
   - component: {fileID: 140038427}
   - component: {fileID: 140038426}
-  - component: {fileID: 140038425}
   m_Layer: 0
   m_Name: Turret (24)
   m_TagString: Untagged
@@ -2687,27 +2620,6 @@ Transform:
   - {fileID: 1999566945}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &140038425
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140038423}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &140038426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3000,7 +2912,6 @@ GameObject:
   - component: {fileID: 166973544}
   - component: {fileID: 166973547}
   - component: {fileID: 166973546}
-  - component: {fileID: 166973545}
   m_Layer: 0
   m_Name: Chaser (22)
   m_TagString: Untagged
@@ -3023,27 +2934,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &166973545
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166973543}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &166973546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3112,7 +3002,6 @@ GameObject:
   - component: {fileID: 169807411}
   - component: {fileID: 169807414}
   - component: {fileID: 169807413}
-  - component: {fileID: 169807412}
   m_Layer: 0
   m_Name: Turret (17)
   m_TagString: Untagged
@@ -3136,27 +3025,6 @@ Transform:
   - {fileID: 210321030}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &169807412
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169807410}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &169807413
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4807,7 +4675,6 @@ GameObject:
   - component: {fileID: 255601100}
   - component: {fileID: 255601103}
   - component: {fileID: 255601102}
-  - component: {fileID: 255601101}
   m_Layer: 0
   m_Name: Turret (11)
   m_TagString: Untagged
@@ -4831,27 +4698,6 @@ Transform:
   - {fileID: 139510588}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &255601101
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255601099}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &255601102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5032,7 +4878,6 @@ GameObject:
   - component: {fileID: 271084064}
   - component: {fileID: 271084067}
   - component: {fileID: 271084066}
-  - component: {fileID: 271084065}
   m_Layer: 0
   m_Name: Chaser (47)
   m_TagString: Untagged
@@ -5055,27 +4900,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &271084065
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271084063}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &271084066
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5430,7 +5254,6 @@ GameObject:
   - component: {fileID: 286177602}
   - component: {fileID: 286177605}
   - component: {fileID: 286177604}
-  - component: {fileID: 286177603}
   m_Layer: 0
   m_Name: Chaser (15)
   m_TagString: Untagged
@@ -5453,27 +5276,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &286177603
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286177601}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &286177604
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6372,7 +6174,6 @@ GameObject:
   - component: {fileID: 361704265}
   - component: {fileID: 361704268}
   - component: {fileID: 361704267}
-  - component: {fileID: 361704266}
   m_Layer: 0
   m_Name: Turret (23)
   m_TagString: Untagged
@@ -6396,27 +6197,6 @@ Transform:
   - {fileID: 920324841}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &361704266
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361704264}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &361704267
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6933,7 +6713,6 @@ GameObject:
   - component: {fileID: 368565988}
   - component: {fileID: 368565991}
   - component: {fileID: 368565990}
-  - component: {fileID: 368565989}
   m_Layer: 0
   m_Name: Chaser (46)
   m_TagString: Untagged
@@ -6956,27 +6735,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &368565989
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368565987}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &368565990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8878,7 +8636,6 @@ GameObject:
   - component: {fileID: 480190647}
   - component: {fileID: 480190650}
   - component: {fileID: 480190649}
-  - component: {fileID: 480190648}
   m_Layer: 0
   m_Name: Chaser (33)
   m_TagString: Untagged
@@ -8901,27 +8658,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &480190648
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480190646}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &480190649
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9886,7 +9622,6 @@ GameObject:
   - component: {fileID: 525219852}
   - component: {fileID: 525219855}
   - component: {fileID: 525219854}
-  - component: {fileID: 525219853}
   m_Layer: 0
   m_Name: Chaser (45)
   m_TagString: Untagged
@@ -9909,27 +9644,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &525219853
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525219851}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &525219854
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10110,7 +9824,6 @@ GameObject:
   - component: {fileID: 536454291}
   - component: {fileID: 536454294}
   - component: {fileID: 536454293}
-  - component: {fileID: 536454292}
   m_Layer: 0
   m_Name: Chaser (13)
   m_TagString: Untagged
@@ -10133,27 +9846,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &536454292
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536454290}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &536454293
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10222,7 +9914,6 @@ GameObject:
   - component: {fileID: 546258273}
   - component: {fileID: 546258276}
   - component: {fileID: 546258275}
-  - component: {fileID: 546258274}
   m_Layer: 0
   m_Name: Chaser (50)
   m_TagString: Untagged
@@ -10245,27 +9936,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &546258274
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546258272}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &546258275
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10562,7 +10232,6 @@ GameObject:
   - component: {fileID: 596323866}
   - component: {fileID: 596323869}
   - component: {fileID: 596323868}
-  - component: {fileID: 596323867}
   m_Layer: 0
   m_Name: Chaser (53)
   m_TagString: Untagged
@@ -10585,27 +10254,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &596323867
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596323865}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &596323868
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10674,7 +10322,6 @@ GameObject:
   - component: {fileID: 596624578}
   - component: {fileID: 596624581}
   - component: {fileID: 596624580}
-  - component: {fileID: 596624579}
   m_Layer: 0
   m_Name: Chaser (17)
   m_TagString: Untagged
@@ -10697,27 +10344,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &596624579
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596624577}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &596624580
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10898,7 +10524,6 @@ GameObject:
   - component: {fileID: 612831324}
   - component: {fileID: 612831327}
   - component: {fileID: 612831326}
-  - component: {fileID: 612831325}
   m_Layer: 0
   m_Name: Turret (9)
   m_TagString: Untagged
@@ -10922,27 +10547,6 @@ Transform:
   - {fileID: 1503050065}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &612831325
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 612831323}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &612831326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11011,7 +10615,6 @@ GameObject:
   - component: {fileID: 613440133}
   - component: {fileID: 613440136}
   - component: {fileID: 613440135}
-  - component: {fileID: 613440134}
   m_Layer: 0
   m_Name: Chaser (37)
   m_TagString: Untagged
@@ -11034,27 +10637,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &613440134
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613440132}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &613440135
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11459,7 +11041,6 @@ GameObject:
   - component: {fileID: 634733301}
   - component: {fileID: 634733304}
   - component: {fileID: 634733303}
-  - component: {fileID: 634733302}
   m_Layer: 0
   m_Name: Chaser (32)
   m_TagString: Untagged
@@ -11482,27 +11063,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &634733302
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634733300}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &634733303
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11685,7 +11245,6 @@ GameObject:
   - component: {fileID: 640205186}
   - component: {fileID: 640205189}
   - component: {fileID: 640205188}
-  - component: {fileID: 640205187}
   m_Layer: 0
   m_Name: Chaser (29)
   m_TagString: Untagged
@@ -11708,27 +11267,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &640205187
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640205185}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &640205188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11797,7 +11335,6 @@ GameObject:
   - component: {fileID: 646787351}
   - component: {fileID: 646787354}
   - component: {fileID: 646787353}
-  - component: {fileID: 646787352}
   m_Layer: 0
   m_Name: Turret (13)
   m_TagString: Untagged
@@ -11821,27 +11358,6 @@ Transform:
   - {fileID: 190945332}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &646787352
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646787350}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &646787353
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11972,7 +11488,6 @@ GameObject:
   - component: {fileID: 651917048}
   - component: {fileID: 651917051}
   - component: {fileID: 651917050}
-  - component: {fileID: 651917049}
   m_Layer: 0
   m_Name: Turret (12)
   m_TagString: Untagged
@@ -11996,27 +11511,6 @@ Transform:
   - {fileID: 2082038225}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &651917049
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651917047}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &651917050
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12239,7 +11733,6 @@ GameObject:
   - component: {fileID: 678124842}
   - component: {fileID: 678124845}
   - component: {fileID: 678124844}
-  - component: {fileID: 678124843}
   m_Layer: 0
   m_Name: Chaser (38)
   m_TagString: Untagged
@@ -12262,27 +11755,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &678124843
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 678124841}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &678124844
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12351,7 +11823,6 @@ GameObject:
   - component: {fileID: 687584478}
   - component: {fileID: 687584481}
   - component: {fileID: 687584480}
-  - component: {fileID: 687584479}
   m_Layer: 0
   m_Name: Chaser (24)
   m_TagString: Untagged
@@ -12374,27 +11845,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &687584479
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687584477}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &687584480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12814,7 +12264,6 @@ GameObject:
   - component: {fileID: 701408511}
   - component: {fileID: 701408514}
   - component: {fileID: 701408513}
-  - component: {fileID: 701408512}
   m_Layer: 0
   m_Name: Chaser (14)
   m_TagString: Untagged
@@ -12837,27 +12286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &701408512
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701408510}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &701408513
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13304,7 +12732,6 @@ GameObject:
   - component: {fileID: 735421445}
   - component: {fileID: 735421448}
   - component: {fileID: 735421447}
-  - component: {fileID: 735421446}
   m_Layer: 0
   m_Name: Turret (27)
   m_TagString: Untagged
@@ -13328,27 +12755,6 @@ Transform:
   - {fileID: 1162456856}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &735421446
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735421444}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &735421447
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14601,7 +14007,6 @@ GameObject:
   - component: {fileID: 786635842}
   - component: {fileID: 786635845}
   - component: {fileID: 786635844}
-  - component: {fileID: 786635843}
   m_Layer: 0
   m_Name: Chaser (12)
   m_TagString: Untagged
@@ -14624,27 +14029,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &786635843
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786635841}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &786635844
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15609,7 +14993,6 @@ GameObject:
   - component: {fileID: 857546917}
   - component: {fileID: 857546920}
   - component: {fileID: 857546919}
-  - component: {fileID: 857546918}
   m_Layer: 0
   m_Name: Turret (14)
   m_TagString: Untagged
@@ -15633,27 +15016,6 @@ Transform:
   - {fileID: 224064142}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &857546918
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857546916}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &857546919
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15722,7 +15084,6 @@ GameObject:
   - component: {fileID: 858921148}
   - component: {fileID: 858921151}
   - component: {fileID: 858921150}
-  - component: {fileID: 858921149}
   m_Layer: 0
   m_Name: Turret (25)
   m_TagString: Untagged
@@ -15746,27 +15107,6 @@ Transform:
   - {fileID: 901869444}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &858921149
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858921147}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &858921150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15897,7 +15237,6 @@ GameObject:
   - component: {fileID: 868765446}
   - component: {fileID: 868765449}
   - component: {fileID: 868765448}
-  - component: {fileID: 868765447}
   m_Layer: 0
   m_Name: Chaser (4)
   m_TagString: Untagged
@@ -15920,27 +15259,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &868765447
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868765445}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &868765448
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16009,7 +15327,6 @@ GameObject:
   - component: {fileID: 868788022}
   - component: {fileID: 868788025}
   - component: {fileID: 868788024}
-  - component: {fileID: 868788023}
   m_Layer: 0
   m_Name: Turret (1)
   m_TagString: Untagged
@@ -16033,27 +15350,6 @@ Transform:
   - {fileID: 741862749}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
---- !u!65 &868788023
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868788021}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &868788024
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16418,7 +15714,6 @@ GameObject:
   - component: {fileID: 885879364}
   - component: {fileID: 885879367}
   - component: {fileID: 885879366}
-  - component: {fileID: 885879365}
   m_Layer: 0
   m_Name: Chaser (26)
   m_TagString: Untagged
@@ -16441,27 +15736,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &885879365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885879363}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &885879366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17544,7 +16818,6 @@ GameObject:
   - component: {fileID: 937997075}
   - component: {fileID: 937997078}
   - component: {fileID: 937997077}
-  - component: {fileID: 937997076}
   m_Layer: 0
   m_Name: Chaser (31)
   m_TagString: Untagged
@@ -17567,27 +16840,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &937997076
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937997074}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &937997077
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18440,7 +17692,6 @@ GameObject:
   - component: {fileID: 1039683133}
   - component: {fileID: 1039683136}
   - component: {fileID: 1039683135}
-  - component: {fileID: 1039683134}
   m_Layer: 0
   m_Name: Turret (26)
   m_TagString: Untagged
@@ -18464,27 +17715,6 @@ Transform:
   - {fileID: 23635460}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1039683134
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039683132}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1039683135
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18792,7 +18022,6 @@ GameObject:
   - component: {fileID: 1053346528}
   - component: {fileID: 1053346531}
   - component: {fileID: 1053346530}
-  - component: {fileID: 1053346529}
   m_Layer: 0
   m_Name: Chaser (52)
   m_TagString: Untagged
@@ -18815,27 +18044,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1053346529
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053346527}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1053346530
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19058,7 +18266,6 @@ GameObject:
   - component: {fileID: 1062438743}
   - component: {fileID: 1062438746}
   - component: {fileID: 1062438745}
-  - component: {fileID: 1062438744}
   m_Layer: 0
   m_Name: Turret (8)
   m_TagString: Untagged
@@ -19082,27 +18289,6 @@ Transform:
   - {fileID: 1672233711}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &1062438744
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062438742}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1062438745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19283,7 +18469,6 @@ GameObject:
   - component: {fileID: 1065649496}
   - component: {fileID: 1065649499}
   - component: {fileID: 1065649498}
-  - component: {fileID: 1065649497}
   m_Layer: 0
   m_Name: Chaser
   m_TagString: Untagged
@@ -19306,27 +18491,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1065649497
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065649495}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1065649498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19619,7 +18783,6 @@ GameObject:
   - component: {fileID: 1073673585}
   - component: {fileID: 1073673588}
   - component: {fileID: 1073673587}
-  - component: {fileID: 1073673586}
   m_Layer: 0
   m_Name: Turret (2)
   m_TagString: Untagged
@@ -19643,27 +18806,6 @@ Transform:
   - {fileID: 562784410}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
---- !u!65 &1073673586
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073673584}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1073673587
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20292,7 +19434,6 @@ GameObject:
   - component: {fileID: 1110185069}
   - component: {fileID: 1110185072}
   - component: {fileID: 1110185071}
-  - component: {fileID: 1110185070}
   m_Layer: 0
   m_Name: Chaser (6)
   m_TagString: Untagged
@@ -20315,27 +19456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1110185070
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110185068}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1110185071
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20803,7 +19923,6 @@ GameObject:
   - component: {fileID: 1132479567}
   - component: {fileID: 1132479570}
   - component: {fileID: 1132479569}
-  - component: {fileID: 1132479568}
   m_Layer: 0
   m_Name: Turret (18)
   m_TagString: Untagged
@@ -20827,27 +19946,6 @@ Transform:
   - {fileID: 634843801}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &1132479568
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132479566}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1132479569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20916,7 +20014,6 @@ GameObject:
   - component: {fileID: 1132544711}
   - component: {fileID: 1132544714}
   - component: {fileID: 1132544713}
-  - component: {fileID: 1132544712}
   m_Layer: 0
   m_Name: Chaser (7)
   m_TagString: Untagged
@@ -20939,27 +20036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1132544712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132544710}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1132544713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21702,7 +20778,6 @@ GameObject:
   - component: {fileID: 1171311711}
   - component: {fileID: 1171311714}
   - component: {fileID: 1171311713}
-  - component: {fileID: 1171311712}
   m_Layer: 0
   m_Name: Chaser (21)
   m_TagString: Untagged
@@ -21725,27 +20800,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1171311712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171311710}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1171311713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21814,7 +20868,6 @@ GameObject:
   - component: {fileID: 1173247672}
   - component: {fileID: 1173247675}
   - component: {fileID: 1173247674}
-  - component: {fileID: 1173247673}
   m_Layer: 0
   m_Name: Chaser (18)
   m_TagString: Untagged
@@ -21837,27 +20890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1173247673
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173247671}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1173247674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21926,7 +20958,6 @@ GameObject:
   - component: {fileID: 1175172688}
   - component: {fileID: 1175172691}
   - component: {fileID: 1175172690}
-  - component: {fileID: 1175172689}
   m_Layer: 0
   m_Name: Chaser (43)
   m_TagString: Untagged
@@ -21949,27 +20980,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1175172689
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175172687}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1175172690
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22150,7 +21160,6 @@ GameObject:
   - component: {fileID: 1175454081}
   - component: {fileID: 1175454084}
   - component: {fileID: 1175454083}
-  - component: {fileID: 1175454082}
   m_Layer: 0
   m_Name: Turret (7)
   m_TagString: Untagged
@@ -22174,27 +21183,6 @@ Transform:
   - {fileID: 1778217724}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 75, z: 0}
---- !u!65 &1175454082
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175454080}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1175454083
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23151,7 +22139,6 @@ GameObject:
   - component: {fileID: 1243477260}
   - component: {fileID: 1243477263}
   - component: {fileID: 1243477262}
-  - component: {fileID: 1243477261}
   m_Layer: 0
   m_Name: Chaser (27)
   m_TagString: Untagged
@@ -23174,27 +22161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1243477261
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243477259}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1243477262
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23599,7 +22565,6 @@ GameObject:
   - component: {fileID: 1259271255}
   - component: {fileID: 1259271258}
   - component: {fileID: 1259271257}
-  - component: {fileID: 1259271256}
   m_Layer: 0
   m_Name: Turret (19)
   m_TagString: Untagged
@@ -23623,27 +22588,6 @@ Transform:
   - {fileID: 223668350}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1259271256
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259271254}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1259271257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24582,7 +23526,6 @@ GameObject:
   - component: {fileID: 1295715661}
   - component: {fileID: 1295715664}
   - component: {fileID: 1295715663}
-  - component: {fileID: 1295715662}
   m_Layer: 0
   m_Name: Chaser (8)
   m_TagString: Untagged
@@ -24605,27 +23548,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1295715662
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295715660}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1295715663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24694,7 +23616,6 @@ GameObject:
   - component: {fileID: 1296217192}
   - component: {fileID: 1296217195}
   - component: {fileID: 1296217194}
-  - component: {fileID: 1296217193}
   m_Layer: 0
   m_Name: Chaser (39)
   m_TagString: Untagged
@@ -24717,27 +23638,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1296217193
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1296217191}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1296217194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25032,7 +23932,6 @@ GameObject:
   - component: {fileID: 1321552878}
   - component: {fileID: 1321552881}
   - component: {fileID: 1321552880}
-  - component: {fileID: 1321552879}
   m_Layer: 0
   m_Name: Chaser (1)
   m_TagString: Untagged
@@ -25055,27 +23954,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1321552879
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321552877}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1321552880
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25144,7 +24022,6 @@ GameObject:
   - component: {fileID: 1324881062}
   - component: {fileID: 1324881065}
   - component: {fileID: 1324881064}
-  - component: {fileID: 1324881063}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Untagged
@@ -25168,27 +24045,6 @@ Transform:
   - {fileID: 1952831741}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
---- !u!65 &1324881063
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324881061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1324881064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25257,7 +24113,6 @@ GameObject:
   - component: {fileID: 1341796923}
   - component: {fileID: 1341796926}
   - component: {fileID: 1341796925}
-  - component: {fileID: 1341796924}
   m_Layer: 0
   m_Name: Turret (6)
   m_TagString: Untagged
@@ -25281,27 +24136,6 @@ Transform:
   - {fileID: 1407444438}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -75, z: 0}
---- !u!65 &1341796924
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1341796922}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1341796925
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25706,7 +24540,6 @@ GameObject:
   - component: {fileID: 1397676134}
   - component: {fileID: 1397676137}
   - component: {fileID: 1397676136}
-  - component: {fileID: 1397676135}
   m_Layer: 0
   m_Name: Chaser (36)
   m_TagString: Untagged
@@ -25729,27 +24562,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1397676135
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397676133}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1397676136
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26879,7 +25691,6 @@ GameObject:
   - component: {fileID: 1449183531}
   - component: {fileID: 1449183534}
   - component: {fileID: 1449183533}
-  - component: {fileID: 1449183532}
   m_Layer: 0
   m_Name: Chaser (42)
   m_TagString: Untagged
@@ -26902,27 +25713,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1449183532
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449183530}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1449183533
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26991,7 +25781,6 @@ GameObject:
   - component: {fileID: 1455701748}
   - component: {fileID: 1455701751}
   - component: {fileID: 1455701750}
-  - component: {fileID: 1455701749}
   m_Layer: 0
   m_Name: Chaser (11)
   m_TagString: Untagged
@@ -27014,27 +25803,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1455701749
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455701747}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1455701750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27215,7 +25983,6 @@ GameObject:
   - component: {fileID: 1474834441}
   - component: {fileID: 1474834444}
   - component: {fileID: 1474834443}
-  - component: {fileID: 1474834442}
   m_Layer: 0
   m_Name: Chaser (5)
   m_TagString: Untagged
@@ -27238,27 +26005,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1474834442
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474834440}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1474834443
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27388,7 +26134,6 @@ GameObject:
   - component: {fileID: 1480870286}
   - component: {fileID: 1480870289}
   - component: {fileID: 1480870288}
-  - component: {fileID: 1480870287}
   m_Layer: 0
   m_Name: Chaser (28)
   m_TagString: Untagged
@@ -27411,27 +26156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1480870287
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480870285}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1480870288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27724,7 +26448,6 @@ GameObject:
   - component: {fileID: 1488668803}
   - component: {fileID: 1488668806}
   - component: {fileID: 1488668805}
-  - component: {fileID: 1488668804}
   m_Layer: 0
   m_Name: Chaser (2)
   m_TagString: Untagged
@@ -27747,27 +26470,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1488668804
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488668802}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1488668805
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27836,7 +26538,6 @@ GameObject:
   - component: {fileID: 1496119993}
   - component: {fileID: 1496119996}
   - component: {fileID: 1496119995}
-  - component: {fileID: 1496119994}
   m_Layer: 0
   m_Name: Turret (16)
   m_TagString: Untagged
@@ -27860,27 +26561,6 @@ Transform:
   - {fileID: 416251868}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1496119994
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496119992}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1496119995
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28287,7 +26967,6 @@ GameObject:
   - component: {fileID: 1504178927}
   - component: {fileID: 1504178930}
   - component: {fileID: 1504178929}
-  - component: {fileID: 1504178928}
   m_Layer: 0
   m_Name: Turret (21)
   m_TagString: Untagged
@@ -28311,27 +26990,6 @@ Transform:
   - {fileID: 891177583}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1504178928
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504178926}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1504178929
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28400,7 +27058,6 @@ GameObject:
   - component: {fileID: 1509815891}
   - component: {fileID: 1509815894}
   - component: {fileID: 1509815893}
-  - component: {fileID: 1509815892}
   m_Layer: 0
   m_Name: Chaser (20)
   m_TagString: Untagged
@@ -28423,27 +27080,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1509815892
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509815890}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1509815893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28512,7 +27148,6 @@ GameObject:
   - component: {fileID: 1525190478}
   - component: {fileID: 1525190481}
   - component: {fileID: 1525190480}
-  - component: {fileID: 1525190479}
   m_Layer: 0
   m_Name: Chaser (40)
   m_TagString: Untagged
@@ -28535,27 +27170,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1525190479
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525190477}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1525190480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28736,7 +27350,6 @@ GameObject:
   - component: {fileID: 1543276468}
   - component: {fileID: 1543276471}
   - component: {fileID: 1543276470}
-  - component: {fileID: 1543276469}
   m_Layer: 0
   m_Name: Turret (22)
   m_TagString: Untagged
@@ -28760,27 +27373,6 @@ Transform:
   - {fileID: 358759522}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1543276469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543276467}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1543276470
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30113,7 +28705,6 @@ GameObject:
   - component: {fileID: 1630044531}
   - component: {fileID: 1630044534}
   - component: {fileID: 1630044533}
-  - component: {fileID: 1630044532}
   m_Layer: 0
   m_Name: Chaser (10)
   m_TagString: Untagged
@@ -30136,27 +28727,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1630044532
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630044530}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1630044533
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30735,7 +29305,6 @@ GameObject:
   - component: {fileID: 1650235784}
   - component: {fileID: 1650235787}
   - component: {fileID: 1650235786}
-  - component: {fileID: 1650235785}
   m_Layer: 0
   m_Name: Turret (20)
   m_TagString: Untagged
@@ -30759,27 +29328,6 @@ Transform:
   - {fileID: 1562528912}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &1650235785
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650235783}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1650235786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31425,7 +29973,6 @@ GameObject:
   - component: {fileID: 1699690014}
   - component: {fileID: 1699690017}
   - component: {fileID: 1699690016}
-  - component: {fileID: 1699690015}
   m_Layer: 0
   m_Name: Chaser (44)
   m_TagString: Untagged
@@ -31448,27 +29995,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1699690015
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699690013}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1699690016
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31537,7 +30063,6 @@ GameObject:
   - component: {fileID: 1709981931}
   - component: {fileID: 1709981934}
   - component: {fileID: 1709981933}
-  - component: {fileID: 1709981932}
   m_Layer: 0
   m_Name: Turret (4)
   m_TagString: Untagged
@@ -31561,27 +30086,6 @@ Transform:
   - {fileID: 334216366}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
---- !u!65 &1709981932
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709981930}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1709981933
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32259,7 +30763,6 @@ GameObject:
   - component: {fileID: 1735757677}
   - component: {fileID: 1735757680}
   - component: {fileID: 1735757679}
-  - component: {fileID: 1735757678}
   m_Layer: 0
   m_Name: Chaser (54)
   m_TagString: Untagged
@@ -32282,27 +30785,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1735757678
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735757676}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1735757679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32595,7 +31077,6 @@ GameObject:
   - component: {fileID: 1757225529}
   - component: {fileID: 1757225532}
   - component: {fileID: 1757225531}
-  - component: {fileID: 1757225530}
   m_Layer: 0
   m_Name: Chaser (9)
   m_TagString: Untagged
@@ -32618,27 +31099,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1757225530
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757225528}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1757225531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32707,7 +31167,6 @@ GameObject:
   - component: {fileID: 1758387180}
   - component: {fileID: 1758387183}
   - component: {fileID: 1758387182}
-  - component: {fileID: 1758387181}
   m_Layer: 0
   m_Name: Chaser (51)
   m_TagString: Untagged
@@ -32730,27 +31189,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1758387181
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758387179}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1758387182
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32931,7 +31369,6 @@ GameObject:
   - component: {fileID: 1765223442}
   - component: {fileID: 1765223445}
   - component: {fileID: 1765223444}
-  - component: {fileID: 1765223443}
   m_Layer: 0
   m_Name: Chaser (35)
   m_TagString: Untagged
@@ -32954,27 +31391,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1765223443
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765223441}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1765223444
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34493,7 +32909,6 @@ GameObject:
   - component: {fileID: 1837819313}
   - component: {fileID: 1837819316}
   - component: {fileID: 1837819315}
-  - component: {fileID: 1837819314}
   m_Layer: 0
   m_Name: Turret (3)
   m_TagString: Untagged
@@ -34517,27 +32932,6 @@ Transform:
   - {fileID: 1312858650}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
---- !u!65 &1837819314
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837819312}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1837819315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34718,7 +33112,6 @@ GameObject:
   - component: {fileID: 1849053864}
   - component: {fileID: 1849053867}
   - component: {fileID: 1849053866}
-  - component: {fileID: 1849053865}
   m_Layer: 0
   m_Name: Turret (10)
   m_TagString: Untagged
@@ -34742,27 +33135,6 @@ Transform:
   - {fileID: 561824288}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1849053865
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849053863}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1849053866
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34831,7 +33203,6 @@ GameObject:
   - component: {fileID: 1854433569}
   - component: {fileID: 1854433572}
   - component: {fileID: 1854433571}
-  - component: {fileID: 1854433570}
   m_Layer: 0
   m_Name: Turret (15)
   m_TagString: Untagged
@@ -34855,27 +33226,6 @@ Transform:
   - {fileID: 471108111}
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1854433570
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854433568}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1854433571
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35392,7 +33742,6 @@ GameObject:
   - component: {fileID: 1879628485}
   - component: {fileID: 1879628488}
   - component: {fileID: 1879628487}
-  - component: {fileID: 1879628486}
   m_Layer: 0
   m_Name: Chaser (48)
   m_TagString: Untagged
@@ -35415,27 +33764,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1879628486
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1879628484}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1879628487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35967,7 +34295,6 @@ GameObject:
   - component: {fileID: 1939302207}
   - component: {fileID: 1939302210}
   - component: {fileID: 1939302209}
-  - component: {fileID: 1939302208}
   m_Layer: 0
   m_Name: Chaser (16)
   m_TagString: Untagged
@@ -35990,27 +34317,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1939302208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939302206}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1939302209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36641,7 +34947,6 @@ GameObject:
   - component: {fileID: 1974267123}
   - component: {fileID: 1974267126}
   - component: {fileID: 1974267125}
-  - component: {fileID: 1974267124}
   m_Layer: 0
   m_Name: Chaser (34)
   m_TagString: Untagged
@@ -36664,27 +34969,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1974267124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974267122}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1974267125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37021,7 +35305,6 @@ GameObject:
   - component: {fileID: 2004583660}
   - component: {fileID: 2004583663}
   - component: {fileID: 2004583662}
-  - component: {fileID: 2004583661}
   m_Layer: 0
   m_Name: Chaser (23)
   m_TagString: Untagged
@@ -37044,27 +35327,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2004583661
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004583659}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2004583662
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37917,7 +36179,6 @@ GameObject:
   - component: {fileID: 2056699081}
   - component: {fileID: 2056699084}
   - component: {fileID: 2056699083}
-  - component: {fileID: 2056699082}
   m_Layer: 0
   m_Name: Chaser (3)
   m_TagString: Untagged
@@ -37940,27 +36201,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2056699082
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2056699080}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2056699083
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38253,7 +36493,6 @@ GameObject:
   - component: {fileID: 2076223709}
   - component: {fileID: 2076223712}
   - component: {fileID: 2076223711}
-  - component: {fileID: 2076223710}
   m_Layer: 0
   m_Name: Chaser (41)
   m_TagString: Untagged
@@ -38276,27 +36515,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2076223710
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076223708}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2076223711
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38591,7 +36809,6 @@ GameObject:
   - component: {fileID: 2094023904}
   - component: {fileID: 2094023907}
   - component: {fileID: 2094023906}
-  - component: {fileID: 2094023905}
   m_Layer: 0
   m_Name: Chaser (25)
   m_TagString: Untagged
@@ -38614,27 +36831,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2094023905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094023903}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2094023906
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39151,7 +37347,6 @@ GameObject:
   - component: {fileID: 2112633766}
   - component: {fileID: 2112633769}
   - component: {fileID: 2112633768}
-  - component: {fileID: 2112633767}
   m_Layer: 0
   m_Name: Chaser (30)
   m_TagString: Untagged
@@ -39174,27 +37369,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1265185279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2112633767
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112633765}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2112633768
 MeshRenderer:
   m_ObjectHideFlags: 0
