@@ -131,6 +131,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 2 (Room 3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -227,6 +259,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -586,6 +626,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 7 (Room 4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16
@@ -795,6 +867,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -851,6 +931,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1205,6 +1293,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 4 (Room 1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 67.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22
@@ -1301,6 +1421,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1700,6 +1828,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2092,6 +2228,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2823,6 +2967,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 3 (Room 4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -3476,6 +3652,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3532,6 +3716,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3590,6 +3782,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3646,6 +3846,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4692,6 +4900,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5243,6 +5459,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5871,6 +6095,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6305,6 +6537,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6321,6 +6561,42 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6418,6 +6694,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7130,6 +7414,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7186,6 +7478,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7355,6 +7655,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8782,6 +9090,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8987,6 +9303,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9048,6 +9372,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9462,6 +9794,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9780,6 +10120,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 7 (Room 3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -9919,6 +10291,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9940,6 +10320,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 4 (Room 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10394,6 +10806,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10415,6 +10835,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 6 (Room 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10850,6 +11302,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 3 (Room 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12252,6 +12736,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12869,6 +13361,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13002,6 +13502,42 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 3 (Room 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.550001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13166,6 +13702,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13473,6 +14017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13664,6 +14216,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 4 (Room 2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35
@@ -13832,6 +14420,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 7 (Room 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14042,6 +14662,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14211,6 +14839,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14227,6 +14863,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 5 (Room 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14553,6 +15221,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15130,6 +15806,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 4 (Room 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16298,6 +17006,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17440,6 +18156,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19679,6 +20403,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20451,6 +21183,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20467,6 +21207,42 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 5 (Room 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20534,6 +21310,34 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -78.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20631,6 +21435,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20776,6 +21588,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 3 (Room 1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 67.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22
@@ -20872,6 +21720,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21154,6 +22010,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21283,6 +22147,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 1 (Room 4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -21344,6 +22244,34 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21553,6 +22481,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22451,6 +23387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22864,6 +23808,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23155,6 +24107,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23221,6 +24181,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24267,6 +25235,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 5 (Room 3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -24364,6 +25364,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24420,6 +25428,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25588,6 +26604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25644,6 +26668,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25838,6 +26870,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26694,6 +27734,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 6 (Room 3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -27144,6 +28216,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 2 (Room 4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -27312,6 +28420,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 8 (Room 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27745,6 +28885,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29000,6 +30148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29261,6 +30417,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 2 (Room 2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -29469,6 +30661,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30052,6 +31252,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 8 (Room 1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14
@@ -30154,6 +31386,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30170,6 +31410,38 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 6 (Room 4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31557,6 +32829,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31573,6 +32853,34 @@ PrefabInstance:
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 2 (Room 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572796456395913876, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6238578717272927498, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 78.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: speed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573793557287247653, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: lifespan
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7256238638719512433, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31899,6 +33207,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32480,6 +33796,14 @@ PrefabInstance:
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: moveSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254063484623349556, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: detectionRange
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
