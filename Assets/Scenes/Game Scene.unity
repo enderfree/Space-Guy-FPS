@@ -127,6 +127,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1963.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2928.5
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 2 (Room 3)
@@ -622,6 +646,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6687.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2284.8
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 7 (Room 4)
@@ -2963,6 +3011,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7445
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2570.4
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 3 (Room 4)
@@ -6558,6 +6630,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3111.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10923
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 2)
@@ -10116,6 +10212,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -892.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6641.2
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 7 (Room 3)
@@ -10317,6 +10437,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1428
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4784.9
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 4 (Room 3)
@@ -11299,6 +11443,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1963.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2928.5
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 3 (Room 3)
@@ -13499,6 +13667,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2544.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1785
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2284.8
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 3 (Room 2)
@@ -14212,6 +14404,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3111.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2355.1
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 4 (Room 2)
@@ -14860,6 +15076,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7445
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1999.2
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 5 (Room 4)
@@ -15803,6 +16043,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6687.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2284.8
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 4 (Room 4)
@@ -16264,6 +16528,10 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 1166683392}
+    - target: {fileID: 2354668680423003966, guid: 37bfc315ef8d39b4cb26f53c7d0d8230, type: 3}
+      propertyPath: maxHealth
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2354668680423003966, guid: 37bfc315ef8d39b4cb26f53c7d0d8230, type: 3}
       propertyPath: stepHeight
       value: 0.48
@@ -18769,7 +19037,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.92, y: -10.28, z: 0.66}
-  m_LocalScale: {x: 0.10535, y: 0.06031, z: 0.06031}
+  m_LocalScale: {x: 1.1697769, y: 0.6696653, z: 0.6696653}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -21307,6 +21575,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 1)
@@ -22143,6 +22423,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1597
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1071
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15495
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 4)
@@ -22241,6 +22545,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1018.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00015267
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 1 (Room 3)
@@ -24178,6 +24506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 424812985660276970, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1264650222513481906, guid: b6df12fd6fd80b345a33efb0854d437b, type: 3}
       propertyPath: m_Name
       value: Sphere 1
@@ -25231,6 +25563,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1428
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4784.9
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 5 (Room 3)
@@ -27730,6 +28086,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -884.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -892.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6641.2
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 6 (Room 3)
@@ -28212,6 +28592,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1597
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1071
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15495
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 2 (Room 4)
@@ -28417,6 +28821,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7445
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2570.4
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 8 (Room 4)
@@ -30413,6 +30841,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5738.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1785
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2570.4
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 2 (Room 2)
@@ -31248,6 +31700,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1303
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15482
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 8 (Room 1)
@@ -31407,6 +31883,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1265185279}
     m_Modifications:
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7445
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 798192156495893656, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1999.2
+      objectReference: {fileID: 0}
     - target: {fileID: 855839885188118830, guid: 4762f48c5448e974f9c317ee3a667169, type: 3}
       propertyPath: m_Name
       value: Turret 6 (Room 4)

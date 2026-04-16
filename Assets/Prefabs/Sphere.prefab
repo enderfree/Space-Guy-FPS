@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1097424088086264295}
   - component: {fileID: 424812985660276970}
   - component: {fileID: 4254063484623349556}
+  - component: {fileID: 3493707312912768935}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -107,7 +108,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
@@ -129,11 +130,39 @@ MonoBehaviour:
   attackRange: 2
   moveSpeed: 3
   attackDamage: 10
-  attackRate: 1
-  preAttackTime: 1.5
+  attackRate: 2
+  preAttackTime: 0
   orbs:
   - {fileID: 1097424088086264295}
   idleColor: {r: 1, g: 1, b: 1, a: 1}
   chaseColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   preAttackColor: {r: 1, g: 0.5, b: 0, a: 1}
   attackColor: {r: 1, g: 0, b: 0, a: 1}
+  MaxHealth: 0
+--- !u!54 &3493707312912768935
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264650222513481906}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

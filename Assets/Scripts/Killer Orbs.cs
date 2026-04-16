@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class KillerOrbs : MonoBehaviour
+public class KillerOrbs : MonoBehaviour, IDamageable
 {
 
 
@@ -33,6 +33,13 @@ public class KillerOrbs : MonoBehaviour
     private float preAttackTimer;
 
     private bool isPreAttacking = false;
+    [SerializeField] private float MaxHealth;
+    private float health;
+
+    void Awake()
+    {
+        health = MaxHealth;
+    }
 
     void Start()
     {
@@ -165,6 +172,14 @@ public class KillerOrbs : MonoBehaviour
             }
 
             attackTimer = 1f / attackRate;
+        }
+    }
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 
