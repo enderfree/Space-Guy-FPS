@@ -131,7 +131,7 @@ MonoBehaviour:
   moveSpeed: 3
   attackDamage: 10
   attackRate: 2
-  preAttackTime: 0
+  preAttackTime: 1
   orbs:
   - {fileID: 1097424088086264295}
   idleColor: {r: 1, g: 1, b: 1, a: 1}
