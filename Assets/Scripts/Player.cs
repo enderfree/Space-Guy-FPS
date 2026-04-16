@@ -124,20 +124,6 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     private void OnShoot(InputAction.CallbackContext context)
     {
       
-    {
-        Debug.Log("Shoot triggered");
-
-        if (Camera.main == null)
-            Debug.LogError("Camera.main is NULL");
-
-        if (bulletExhaust == null)
-            Debug.LogError("bulletExhaust is NULL");
-
-        if (bullet == null)
-            Debug.LogError("bullet prefab is NULL");
-    }
-    
-      {
         if (timeBetweenShotsCounter > 0) return;
 
             Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f)); ;//this is my line from here to 
@@ -161,12 +147,12 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         Quaternion rotation = Quaternion.LookRotation(direction);//to here
 
         GameObject instance = Instantiate(bullet, bulletExhaust.transform.position, rotation);
-        instance.GetComponent<Bullet>().FireBullet();
+       // instance.GetComponent<Bullet>().FireBullet();
 
         timeBetweenShotsCounter = timeBetweenShots;
-      }
-
     }
+
+    
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
         isMoving = true;
@@ -333,3 +319,4 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         }
     }
 }
+
