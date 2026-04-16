@@ -58,6 +58,8 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
     private InputSystem_Actions inputAction;
     private Rigidbody rb;
 
+    public static bool hasGameStarted = true;
+
     // Unity
 
     void Start()
@@ -93,6 +95,7 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
         inputAction.Player.Jump.canceled += OnJumpCanceled;
     }
 
+    
     private void OnDisable()
     {
         inputAction.Player.Attack.performed -= OnShoot;
@@ -110,14 +113,17 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 
     void FixedUpdate()
     {
-        Move();
-        Look();
-        StepClimb();
-        if (timeBetweenShotsCounter > 0)
+        if (hasGameStarted)
         {
-            timeBetweenShotsCounter -= Time.fixedDeltaTime;
+
+            Move();
+            Look();
+            StepClimb();
+            if (timeBetweenShotsCounter > 0)
+            {
+                timeBetweenShotsCounter -= Time.fixedDeltaTime;
+            }
         }
-      
     }
 
     // Events
@@ -283,6 +289,7 @@ public class Player : MonoBehaviour, IDamageable, ITriggerTurrets
 
     private void Look()
     {
+        if(!hasGameStarted) return;
         Vector2 look = inputAction.Player.Look.ReadValue<Vector2>();
 
         float mouseX = look.x;
